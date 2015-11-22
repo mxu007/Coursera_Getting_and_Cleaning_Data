@@ -1,4 +1,4 @@
-# # Getting & Cleaning Data Assignment - CodeBook
+# Getting & Cleaning Data Assignment - CodeBook
 This is the CodeBook File.
 As illustrated in the requirements of this assignment, this file documents the variables, the data and any transformations or work that the script "run_analysis.R" has accessed or performed.
 

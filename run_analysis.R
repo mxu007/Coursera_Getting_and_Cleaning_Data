@@ -65,18 +65,3 @@ ReshapeData <- melt(CombinedData, id = c("Subject", "Activity"))
 DecastData <- dcast(ReshapeData, Subject + Activity ~ variable, mean)
 # Write DecastData to a txt file
 write.table(DecastData, "./UCI HAR Dataset/DecastData.txt", sep="\t", row.name=FALSE)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
